@@ -32,3 +32,4 @@ const ProductCard = ({ product, agregarAlCarrito }) => {
 };
 
 export default ProductCard;
+

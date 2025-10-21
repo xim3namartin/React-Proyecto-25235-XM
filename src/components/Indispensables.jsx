@@ -1,7 +1,7 @@
 import React from 'react';
 import ProductList from './ProductList';
 
-const Infaltables = () => {
+const Indispensables = () => {
   return (
     <div className="container">
       <h1>Infaltables</h1>
@@ -10,4 +10,4 @@ const Infaltables = () => {
   );
 };
 
-export default Infaltables;
+export default Indispensables;
