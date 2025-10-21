@@ -1,0 +1,12 @@
+Instalar las siguientes dependencias:
+
+-bootstrap
+npm install bootstrap react-bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+-router
+npm install react-router-dom
+
+-font awesome
+npm install font-awesome
+import 'font-awesome/css/font-awesome.min.css';
