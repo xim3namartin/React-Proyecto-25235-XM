@@ -85,7 +85,7 @@ const CrudProductos = () => {
       .catch((error) => console.error("Error:", error));
   };
 
-  //productos al iniciar
+  //productos al iniciar (cargar productos)
   useEffect(() => {
     getProductos();
   }, []);

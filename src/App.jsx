@@ -5,10 +5,14 @@ import Ofertas from './components/Ofertas';
 import Login from './components/Login'; 
 import Footer from './components/Footer'
 import Indispensables from './components/Indispensables';
+import { CartProvider } from './components/CartContext';
+import Carrito from './components/Carrito'; 
+import CrudProductos from './components/CrudProductos';
 
 function App() {
 
   return (
+      <CartProvider>
      <Router>
       <Header />
       <Routes>
@@ -16,9 +20,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/ofertas" element={<Ofertas />} />
         <Route path="/indispensables" element={<Indispensables />} />
+        <Route path="/carrito" element={<Carrito />} />
+        <Route path="/crud" element={<CrudProductos />} />
       </Routes>
       <Footer/>
     </Router>
+    </CartProvider>
   )
 }
 
